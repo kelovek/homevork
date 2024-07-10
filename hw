@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>Comics</title>
+    <meta charset="UTF-8">
+</head>
+
+<style>
+
+.box-with-shadow {
+  
+  width: 250px;
+  
+  padding: 32px;
+  
+  background-color: #38d9a9;
+  
+  border: 1px solid #333;
+}
+
+
+.box-with-shadow:hover {
+  
+  box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
+}
+
+
+body{
+background : rgb(167, 144, 144) 
+}
+
+h1 {
+    color: beige;
+
+}
+  
+a:hover {
+    color:rgb(73, 43, 182)
+    
+}
+
+div:hover {
+    color:white
+    
+}
+
+p:hover {
+    color:white
+    
+}
+
+div {
+    font-size: 20px
+    
+}
+
+ul{
+    border-radius: 10px;
+    font-family: cursive ;
+}
+
+
+</style>
+
+<body >
+
+    <header>
+        <img src="логотип-компании.htm" alt=Компания>
+    <h1 align="center">Comics</h1>
+    </header>
+    <main> 
+   <div>
+    <ul>
+   <a href="#">home</a>
+    </ul>
+    <ul>
+   <a href="#">about</a>
+    </ul>
+    <ul>
+   <a href="#metka">products</a>
+    </ul>
+    </div>
+    <div>
+   <h2>products</h2>
+   <a href="#">home--products</a>
+
+   </div> 
+   <div>
+
+   <h2>Featured comics to show</h2>
+    
+          <img src="Без имени.jpeg" alt=Магическая битва>    
+        </main>
+    <main>
+          <p class="box-with-shadow">Jujutsu kaisen</p>
+       <p class="box-with-shadow">You can buy manga in online-stores</p>
+       <a href="#" >View Details</a>
+     </main>
+    
+    </div>
+   
+</body>
+
+
+</html>
